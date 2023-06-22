@@ -1,0 +1,67 @@
+.bible-header-custom {
+    display: grid;
+    align-content: center;
+    width: fit-content;
+    padding: 4px 20px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background-color: #fff;
+    color: #000;
+    font-size: 45px;
+    border-radius: 35px;
+  }
+  
+  
+  .bible-header-custom {
+    display: grid;
+    align-content: center;
+    width: fit-content;
+    padding: 4px 20px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background-color: #000;
+    color: #fff;
+    font-size: 45px;
+    border-radius: 35px;
+  }
+  
+  desc {
+  /* livro:capítulo.vesículo */
+    font-size: 45px;
+    background-color: #fff ;
+    color: #000;
+  }
+  
+  .bible_slide {
+    position:relative;
+    z-index:-10;
+    background-color: rgba(131,111,255,0.5) ;
+    font-size: 50px;
+    display: grid;
+    padding: 30px;
+    height: 180px;
+    border-radius: 20px;
+    color: #fff;
+  }
+  
+  .bible_slide > span {
+    display: none;
+  }
+  
+  @keyframes fade-in {
+    from {opacity: 0.0}
+    to   {opacity: 1.0}
+  }
+  
+  @keyframes fade-out {
+    from {opacity: 1.0}
+    to   {opacity: 0.0}
+  }
+  
+  desc, ctt, .music_slide {
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
